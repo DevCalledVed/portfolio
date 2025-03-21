@@ -1,26 +1,14 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Mazing",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Developer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
-};
-
-const newsletter = {
-  display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: (
-    <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
-    </>
-  ),
+  location: "USA (EST)", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const social = [
@@ -29,22 +17,22 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "github.com/DevCalledVed/",
   },
   {
-    name: "LinkedIn",
-    icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    name: "Roblox",
+    icon: "roblox",
+    link: "https://www.roblox.com/users/6218196383/profile",
   },
   {
-    name: "X",
-    icon: "x",
-    link: "",
+    name: "Discord",
+    icon: "discord",
+    link: "justakidcalledved",
   },
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "thehammydev@gmail.com@gmail.com",
   },
 ];
 
@@ -52,11 +40,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Programmer and Music Producer</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Mazing, a programmer and music producer. 
+      <br />I mainly work on Roblox, but I can also do web development and discord bots. Check out my my work!
     </>
   ),
 };
@@ -81,9 +69,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Mazing is a teenage coder who loves math, physics, 3d modeling gaming, piano, and of course, coding. 
+        With a musical background of over 10 years, 3 years of programming experience, and a year of game dev,
+        you can be assured that your project will be in the right hands. 
       </>
     ),
   },
